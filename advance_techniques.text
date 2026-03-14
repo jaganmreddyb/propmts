@@ -1,24 +1,29 @@
 1. The "Blind-Spot Finder"
 Most users ask for what they know they need. The top 1% ask Gemini to identify what they’ve missed. This forces the model to look at the boundaries of the topic.
 
-The Prompt: "I want to [insert goal, e.g., start a boutique coffee shop]. Based on your knowledge of industry failures and success stories, identify 5 critical questions I am not asking but probably should be."
+The Prompt: "
+I want to [insert goal, e.g., start a boutique coffee shop]. Based on your knowledge of industry failures and success stories, identify 5 critical questions I am not asking but probably should be.
 
 2. Multi-Perspective Analysis
 Instead of getting a single generic answer, demand a "council of experts" approach. This reveals contradictions and trade-offs that a single-persona prompt misses.
 
-The Prompt: "Explain [insert topic]. Then, compare how a [Role A, e.g., conservative economist] and a [Role B, e.g., silicon valley venture capitalist] would approach this differently. Highlight the primary tension between their views."
+The Prompt: "
+Explain [insert topic]. Then, compare how a [Role A, e.g., conservative economist] and a [Role B, e.g., silicon valley venture capitalist] would approach this differently. Highlight the primary tension between their views."
 
 3. "Unlimited Resources" Grounding
 AI models often default to "safe" or "practical" advice. By removing constraints, you see the "ideal" version of a solution, which you can then scale back to your reality.
 
-The Prompt: "If you had unlimited time, a $10M budget, and a team of 50 experts, how would you solve [insert problem]? Provide the 'ideal' blueprint first, then help me scale it down to a version I can execute alone in one week."
+The Prompt: "
+If you had unlimited time, a $10M budget, and a team of 50 experts, how would you solve [insert problem]? Provide the 'ideal' blueprint first, then help me scale it down to a version I can execute alone in one week."
 
 4. Self-Refining (The "Critic" Loop)
 Top users never accept the first draft. They use a technique where the AI critiques itself before finalizing the output. This significantly reduces hallucinations and "fluff."
 
-The Prompt: "1. Write a draft of [insert task]. 2. Critically analyze this draft for logic gaps, generic language, and lack of evidence. 3. Provide an improved version that addresses all those critiques."
+The Prompt: "
+1. Write a draft of [insert task]. 2. Critically analyze this draft for logic gaps, generic language, and lack of evidence. 3. Provide an improved version that addresses all those critiques."
 
 5. Skeleton-of-Thought
 For complex or long-form requests, asking for everything at once often leads to "AI drift" where the quality drops halfway through. Instead, force it to build the architecture first.
 
-The Prompt: "Do not write the full piece yet. Create a 'Skeleton-of-Thought' for [insert topic] with 5-7 core headers and 3 specific sub-bullets for each. Once I approve the skeleton, we will expand it section by section."
+The Prompt: "
+Do not write the full piece yet. Create a 'Skeleton-of-Thought' for [insert topic] with 5-7 core headers and 3 specific sub-bullets for each. Once I approve the skeleton, we will expand it section by section."
